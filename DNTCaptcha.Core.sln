@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BEDF3D21-9B83-4563-923E-CBB8BABD08D4}"
 EndProject
@@ -13,21 +13,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNTCaptcha.Core", "src\DNTCaptcha.Core\DNTCaptcha.Core.csproj", "{F564F46A-7BB9-4D48-B63A-4F7821D1457C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNTCaptcha.TestWebApp.V2", "src\DNTCaptcha.TestWebApp.V2x\DNTCaptcha.TestWebApp.V2.csproj", "{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNTCaptcha.TestWebApp.V2", "src\DNTCaptcha.TestWebApp.V2x\DNTCaptcha.TestWebApp.V2.csproj", "{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNTCaptcha.TestWebApp.V3", "src\DNTCaptcha.TestWebApp.V3x\DNTCaptcha.TestWebApp.V3.csproj", "{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNTCaptcha.TestWebApp.V3", "src\DNTCaptcha.TestWebApp.V3x\DNTCaptcha.TestWebApp.V3.csproj", "{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F564F46A-7BB9-4D48-B63A-4F7821D1457C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F564F46A-7BB9-4D48-B63A-4F7821D1457C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F564F46A-7BB9-4D48-B63A-4F7821D1457C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F564F46A-7BB9-4D48-B63A-4F7821D1457C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F564F46A-7BB9-4D48-B63A-4F7821D1457C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F564F46A-7BB9-4D48-B63A-4F7821D1457C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +43,8 @@ Global
 		{F564F46A-7BB9-4D48-B63A-4F7821D1457C} = {BEDF3D21-9B83-4563-923E-CBB8BABD08D4}
 		{A694E431-7560-4F17-B3E0-E3CE39AFCEA9} = {BEDF3D21-9B83-4563-923E-CBB8BABD08D4}
 		{8BB4025D-0CC9-45D0-9A81-0B57D41DE715} = {BEDF3D21-9B83-4563-923E-CBB8BABD08D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {741CC8D9-C362-49DA-9D3D-F70EBAB84E34}
 	EndGlobalSection
 EndGlobal

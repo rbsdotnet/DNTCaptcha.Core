@@ -11,8 +11,8 @@
         byte[] DrawCaptcha(string message, string foreColor, string backColor, float fontSize, string fontName);
 
         /// <summary>
-        /// Creates the captcha image.
+        /// Creates the captcha image with noise.
         /// </summary>
-        byte[] DrawCaptcha(string message, string foreColor, float fontSize, string fontName);
+        byte[] DrawCaptcha(string message, float fontSize, string fontName);
     }
 }

@@ -1,19 +1,19 @@
 ﻿using DNTCaptcha.Core.Contracts;
 using DNTCaptcha.Core.Providers;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using System;
 
 namespace DNTCaptcha.Core
 {
@@ -180,7 +180,7 @@ namespace DNTCaptcha.Core
             try
             {
                 if (model.UseNoise)
-                    image = _captchaImageProvider.DrawCaptcha(decryptedText, model.ForeColor, model.FontSize, model.FontName);
+                    image = _captchaImageProvider.DrawCaptcha(decryptedText, model.FontSize, model.FontName);
                 else
                     image = _captchaImageProvider.DrawCaptcha(decryptedText, model.ForeColor, model.BackColor, model.FontSize, model.FontName);
             }
